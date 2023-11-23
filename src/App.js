@@ -1,10 +1,13 @@
 import './App.css';
 import NavBar from './LandingPage/Navigation';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
-    <NavBar />
+    <Router>
+      <NavBar />
+    </Router>
   );
-}
+};
 
 export default App;

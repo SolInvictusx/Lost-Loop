@@ -1,20 +1,32 @@
+import LLLogo from '../img/LLLogo.svg';
+
 const NavBar = () => {
     return (
-        <nav>
-            <ul>
-                <li><a href='/'></a>Beef</li>
-                <li><a href='/'></a>Contact</li>
-                <li><a href='/'></a>Merchandise</li>
+        <nav className='nav'>
+            <a href='/'><Logo /></a>
+            <ul className='nav-list'>
+                <li>
+                    <a href='/'>Beef</a>
+                </li>
+                <li>
+                    <a href='/'>Contact</a>
+                </li>
+                <li>
+                    <a href='/'>Merchandise</a>
+                </li>
             </ul>
         </nav>
     );
 };
 
 const Logo = () => {
+
     return (
-        <>
-            <img alt="Lost Loop Logo" />
-        </>
+        <div>
+            <img src={LLLogo}
+                style={{ height: 50, width: 50 }}
+                alt='Lost Loop Logo' />
+        </div>
     );
     ;
 }
