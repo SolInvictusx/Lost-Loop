@@ -24,11 +24,9 @@ const Logo = () => {
     return (
         <div>
             <img src={LLLogo}
-                style={{ height: 50, width: 50 }}
                 alt='Lost Loop Logo'
                 className='logo-img'
             />
-
         </div>
     );
     ;
