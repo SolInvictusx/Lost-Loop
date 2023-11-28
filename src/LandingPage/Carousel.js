@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Church from '../img/Church.jpg';
+// import Church from '../img/Church.jpg';
 
 import '../css/styles.css'
 
@@ -14,7 +14,7 @@ export const CarouselItem = ({ children, width }) => {
 export const CarouselOne = () => {
     return (
         <div>
-            <img src={Church} />
+            {/* Add Image HERE! */}
         </div>
     )
 }

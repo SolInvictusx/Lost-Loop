@@ -1,5 +1,6 @@
 import './App.css';
 import Carousel, { CarouselItem, CarouselOne } from './LandingPage/Carousel';
+import { NewDetail } from './LandingPage/Family';
 import NavBar from './LandingPage/Navigation';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <CarouselItem>Item 2</CarouselItem>
         <CarouselItem>Item 3</CarouselItem>
       </Carousel>
+      <NewDetail />
     </>
   );
 };
