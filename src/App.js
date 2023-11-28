@@ -1,12 +1,19 @@
 import './App.css';
+import Carousel, { CarouselItem, CarouselOne } from './LandingPage/Carousel';
 import NavBar from './LandingPage/Navigation';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 const App = () => {
   return (
-    <Router>
+    <>
       <NavBar />
-    </Router>
+      <Carousel>
+        <CarouselItem>
+          <CarouselOne />
+        </CarouselItem>
+        <CarouselItem>Item 2</CarouselItem>
+        <CarouselItem>Item 3</CarouselItem>
+      </Carousel>
+    </>
   );
 };
 

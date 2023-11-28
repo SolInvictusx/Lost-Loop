@@ -29,7 +29,6 @@ const Logo = () => {
             />
         </div>
     );
-    ;
-}
+};
 
 export default NavBar;
