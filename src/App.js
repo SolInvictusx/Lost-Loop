@@ -1,5 +1,5 @@
 import './App.css';
-import Carousel, { CarouselItem, CarouselOne } from './LandingPage/Carousel';
+import Carousel, { CarouselItem, ImgOne, ImgThree, ImgTwo } from './LandingPage/Carousel';
 import { NewDetail } from './LandingPage/Family';
 import NavBar from './LandingPage/Navigation';
 
@@ -9,10 +9,14 @@ const App = () => {
       <NavBar />
       <Carousel>
         <CarouselItem>
-          <CarouselOne />
+          <ImgOne />
         </CarouselItem>
-        <CarouselItem>Item 2</CarouselItem>
-        <CarouselItem>Item 3</CarouselItem>
+        <CarouselItem>
+          <ImgTwo />
+        </CarouselItem>
+        <CarouselItem>
+          <ImgThree />
+        </CarouselItem>
       </Carousel>
       <NewDetail />
     </>

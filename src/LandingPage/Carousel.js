@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-// import Church from '../img/Church.jpg';
+import Background from '../img/Background.jpeg'
+import Cattle from '../img/Cattle.jpeg'
+import Hillside from '../img/Hillside.jpg'
 
 import '../css/styles.css'
 
@@ -11,10 +13,26 @@ export const CarouselItem = ({ children, width }) => {
     );
 };
 
-export const CarouselOne = () => {
+export const ImgOne = () => {
     return (
         <div>
-            {/* Add Image HERE! */}
+            <img src={Background} className='church' />
+        </div>
+    )
+}
+
+export const ImgTwo = () => {
+    return (
+        <div>
+            <img src={Cattle} className='church' />
+        </div>
+    )
+}
+
+export const ImgThree = () => {
+    return (
+        <div>
+            <img src={Hillside} className='church' />
         </div>
     )
 }

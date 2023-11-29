@@ -1,4 +1,4 @@
-import Family from '../img/Family.jpg';
+import Family from '../img/Family.jpeg'
 
 export const NewDetail = () => {
     return (
