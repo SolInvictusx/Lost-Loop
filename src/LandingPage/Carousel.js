@@ -16,7 +16,7 @@ export const CarouselItem = ({ children, width }) => {
 export const ImgOne = () => {
     return (
         <div>
-            <img src={Background} className='church' />
+            <img src={Cattle} className='church' />
         </div>
     )
 }
@@ -24,7 +24,7 @@ export const ImgOne = () => {
 export const ImgTwo = () => {
     return (
         <div>
-            <img src={Cattle} className='church' />
+            <img src={Background} className='church' />
         </div>
     )
 }
@@ -80,26 +80,26 @@ const Carousel = ({ children }) => {
                 })}
             </div>
             <div className='indicators'>
-                <button
+                <button className='prev'
                     onClick={() => {
                         updateIndex(activeIndex - 1);
                     }}
                 >
-                    Prev
+                    Previous
                 </button>
                 {React.Children.map(children, (child, index) => {
-                    return (
-                        <button
-                            className={`${index === activeIndex ? 'active' : ''}`}
-                            onClick={() => {
-                                updateIndex(index);
-                            }}
-                        >
-                            {index + 1}
-                        </button>
-                    );
+                    // return (
+                    //     <button
+                    //         className={`${index === activeIndex ? 'active' : ''}`}
+                    //         onClick={() => {
+                    //             updateIndex(index);
+                    //         }}
+                    //     >
+                    //         {index + 1}
+                    //     </button>
+                    // );
                 })}
-                <button
+                <button className='next'
                     onClick={() => {
                         updateIndex(activeIndex + 1);
                     }}
