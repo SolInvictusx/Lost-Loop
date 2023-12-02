@@ -111,6 +111,7 @@ ul {
 .indicators {
     display: flex;
     justify-content: center;
+    background-color: var(--mainBlack);
 }
 
 .indicators>button {
@@ -158,6 +159,30 @@ ul {
 }
 
 /* End of Carousel */
+
+/* Beginning of Business Details */
+
+.business-container {
+    text-align: center;
+}
+
+.business {
+    width: auto;
+    height: 250px;
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Beginning of Extended Info */
 
