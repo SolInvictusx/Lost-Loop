@@ -34,6 +34,7 @@ ul {
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(240, 157, 81, 1) 0%, rgba(0, 0, 0, 1) 85%);
     height: 85px;
+
 }
 
 .nav-list {
@@ -99,23 +100,24 @@ ul {
     transition: transform 0.3s;
 }
 
+
 .carousel-item {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 710px;
+    height: 770px;
     background-color: transparent;
     color: #fff;
+    vertical-align: bottom;
 }
 
 .indicators {
     display: flex;
     justify-content: center;
-    background-color: var(--mainBlack);
 }
 
 .indicators>button {
-    transform: translate(-125%, -550%);
+    transform: translate(-125%, -225%);
     appearance: none;
     background-image: radial-gradient(100% 100% at 100% 0, #f68f30 0, #f09d51 100%);
     box-shadow: rgba(255, 255, 255, 0.4) 0 2px 4px, rgba(255, 255, 255, 0.3) 0 7px 13px -3px, rgba(255, 254, 254, 0.5) 0 -3px 0 inset;
@@ -155,7 +157,7 @@ ul {
     object-fit: cover;
     width: 100%;
     height: auto;
-    opacity: 0.85;
+    opacity: 0.95;
 }
 
 /* End of Carousel */
@@ -164,6 +166,8 @@ ul {
 
 .business-container {
     text-align: center;
+    border-top: 25px solid black;
+    border-bottom: 25px solid black;
 }
 
 .business {
