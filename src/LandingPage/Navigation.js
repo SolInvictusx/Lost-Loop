@@ -1,18 +1,27 @@
 import LLLogo from '../img/LLLogo.svg';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <nav className='nav'>
-            <a href='/'><Logo /></a>
+            <Link to='/'>
+                <Logo />
+            </Link>
             <ul className='nav-list'>
                 <li className='nav-link'>
-                    <a href='/beef'>Beef</a>
+                    <Link to='/beef'>
+                        Beef
+                    </Link>
                 </li>
                 <li className='nav-link'>
-                    <a href='/'>Contact</a>
+                    <Link to='/'>
+                        Contact
+                    </Link>
                 </li>
                 <li className='nav-link'>
-                    <a href='/'>Merchandise</a>
+                    <Link to='/'>
+                        Merchandise
+                    </Link>
                 </li>
             </ul>
         </nav>

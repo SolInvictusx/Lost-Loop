@@ -12,3 +12,8 @@ const BeefPage = () => {
 };
 
 export default BeefPage;
+
+
+// SEE INFORMATION REGARDING ROUTING FOR PAGES!!!
+
+// https://www.youtube.com/watch?v=o05ZP6_JQqE
