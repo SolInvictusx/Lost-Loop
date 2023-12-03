@@ -9,17 +9,18 @@ const BeefLink = () => {
                         From our farm to your table
                     </h1>
                 </p>
-                <button className="link-btn">
-                    <Link to='/beef'>
-                        Beef Pricing
-                    </Link>
-                </button>
-                <button className="link-btn">
-                    <Link to='/merchandise'>
-                        Shirts, Hats & More
-                    </Link>
-                </button>
             </div>
+            <button className="link-btn">
+                <Link to='/beef'>
+                    Beef Pricing
+                </Link>
+            </button>
+            <button className="link-btn">
+                <Link to='/merchandise'>
+                    Shirts, Hats & More
+                </Link>
+            </button>
+
         </div>
     );
 };

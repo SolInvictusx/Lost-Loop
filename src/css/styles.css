@@ -139,6 +139,12 @@ ul {
     text-align: center;
 }
 
+.display-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.02px 10px;
+    border-radius: 15px;
+}
+
 .link-btn {
     appearance: none;
     background-image: radial-gradient(100% 100% at 100% 0, #f68f30 0, #f09d51 100%);
