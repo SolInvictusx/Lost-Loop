@@ -57,7 +57,7 @@ const Carousel = ({ children }) => {
             if (!paused) {
                 updateIndex(activeIndex + 1);
             }
-        }, 4000);
+        }, 4500);
 
 
         return () => {
@@ -78,34 +78,6 @@ const Carousel = ({ children }) => {
                 {React.Children.map(children, (child, index) => {
                     return React.cloneElement(child, { width: '100%' });
                 })}
-            </div>
-            <div className='indicators'>
-                <button className='prev'
-                    onClick={() => {
-                        updateIndex(activeIndex - 1);
-                    }}
-                >
-                    Previous
-                </button>
-                {React.Children.map(children, (child, index) => {
-                    // return (
-                    //     <button
-                    //         className={`${index === activeIndex ? 'active' : ''}`}
-                    //         onClick={() => {
-                    //             updateIndex(index);
-                    //         }}
-                    //     >
-                    //         {index + 1}
-                    //     </button>
-                    // );
-                })}
-                <button className='next'
-                    onClick={() => {
-                        updateIndex(activeIndex + 1);
-                    }}
-                >
-                    Next
-                </button>
             </div>
         </div>
     );

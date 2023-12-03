@@ -111,36 +111,6 @@ ul {
     justify-content: center;
 }
 
-.indicators>button {
-    transform: translate(-125%, -225%);
-    appearance: none;
-    background-image: radial-gradient(100% 100% at 100% 0, #f68f30 0, #f09d51 100%);
-    box-shadow: rgba(0, 0, 0, 0.4) 0 8px 8px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.5) 0 0px 0 inset;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    will-change: box-shadow, transform;
-    box-sizing: border-box;
-    align-items: center;
-    line-height: 1;
-    z-index: 1;
-    cursor: pointer;
-    color: var(--mainBlack);
-    border: none;
-    border-radius: 15px;
-    padding: 10px;
-    min-height: 25px;
-    min-width: 120px;
-    font-size: 16px;
-    margin-left: 250px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
-    ;
-    font-weight: 600;
-}
-
 .indicators>button.active {
     background-color: var(--primaryColor);
     color: #fff;
@@ -166,7 +136,7 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    text-align: center;
 }
 
 .link-btn {
@@ -186,7 +156,7 @@ ul {
     color: var(--mainBlack);
     border: none;
     border-radius: 15px;
-    padding: 20px;
+    padding: 30px;
     min-height: 25px;
     min-width: 120px;
     font-size: 16px;
@@ -197,6 +167,17 @@ ul {
     font-weight: 600;
     align-items: center;
     margin: 70px;
+}
+
+.link-btn:hover {
+    background-image: radial-gradient(100% 100% at 100% 0, #ac5d13 0, rgb(0, 0, 0) 95%);
+}
+
+.table-talk {
+    color: var(--mainGrey);
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 50px;
 }
 
 /* End of Link Container */
