@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import './css/styles.css';
 import BeefPage from './OtherPages/BeefMain';
+import MerchandisePage from './OtherPages/MerchandiseMain';
 
 import {
   createBrowserRouter,
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "beef",
     element: <BeefPage />,
+  },
+  {
+    path: "merchandise",
+    element: <MerchandisePage />,
   },
 ]);
 
