@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const BeefLink = () => {
     return (
         <div className="display-container">
-            <div className="display-box">
+            <div>
                 <p>
                     <h1 className="table-talk">
                         From our farm to your table
