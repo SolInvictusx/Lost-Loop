@@ -1,12 +1,20 @@
-import AmountBeef from "../BeefPage/Quantity";
 import NavBar from "../LandingPage/Navigation";
+import BeefNeed from "../BeefPage/HowMuch";
+import InfoPortion from "../BeefPage/InfoSection";
 
 
 const BeefPage = () => {
     return (
         <div>
             <NavBar />
-            <AmountBeef />
+            <div className="column-container">
+                <div className="column">
+                    <InfoPortion />
+                </div>
+                <div className="column">
+                    <BeefNeed />
+                </div>
+            </div>
         </div>
     );
 };

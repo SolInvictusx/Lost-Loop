@@ -1,12 +1,20 @@
 const AmountBeef = () => {
     return (
-        <OneBeef />
+        <div className="amount-container">
+            <div className="amount-info">
+                <OneBeef />
+                <HalfBeef />
+                <OneFourthBeef />
+                <OneEigthBeef />
+                <OneSixteenthBeef />
+            </div>
+        </div>
     );
 };
 
 export const OneBeef = () => {
     return (
-        <img />
+        <img          />
     );
 };
 
