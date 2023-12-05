@@ -5,6 +5,7 @@ import image4 from '../img/ChuckRoast.jpg';
 import image5 from '../img/RumpRoast.jpg';
 import image6 from '../img/FiletMignon.jpg';
 import image7 from '../img/CubeSteak.jpg';
+import image8 from '../img/SirloinTipRoast.jpg'
 
 const BeefArray = () => {
     const imgArray = [
@@ -15,6 +16,7 @@ const BeefArray = () => {
         image5,
         image6,
         image7,
+        image8,
     ];
 
     return (

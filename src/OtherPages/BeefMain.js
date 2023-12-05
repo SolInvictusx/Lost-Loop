@@ -2,6 +2,7 @@ import NavBar from "../LandingPage/Navigation";
 import BeefNeed from "../BeefPage/HowMuch";
 import InfoPortion from "../BeefPage/InfoSection";
 import BeefArray from "../BeefPage/CutsArray";
+import Headliner from "../BeefPage/Headline";
 
 
 const BeefPage = () => {
@@ -16,6 +17,7 @@ const BeefPage = () => {
                     <BeefNeed />
                 </div>
             </div>
+            <Headliner />
             <BeefArray />
         </div>
     );

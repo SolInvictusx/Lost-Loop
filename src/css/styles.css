@@ -234,8 +234,22 @@ ul {
     padding: 20px;
 }
 
+.headline-main {
+    text-align: center;
+    font-size: 72px;
+    background-color: var(--mainGrey);
+}
+
+.img-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    margin: 3.5%;
+}
+
 .gallery-img {
-    height: 500px;
-    width: auto;
-    margin: 50px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
 }
