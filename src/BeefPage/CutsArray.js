@@ -1,10 +1,20 @@
 import image1 from '../img/GroundBeef.jpg';
-import image2 from '../img/Steaks.jpeg';
+import image2 from '../img/Sirloin.jpg';
+import image3 from '../img/KCStrip.jpeg';
+import image4 from '../img/ChuckRoast.jpg';
+import image5 from '../img/RumpRoast.jpg';
+import image6 from '../img/FiletMignon.jpg';
+import image7 from '../img/CubeSteak.jpg';
 
 const BeefArray = () => {
     const imgArray = [
         image1,
         image2,
+        image3,
+        image4,
+        image5,
+        image6,
+        image7,
     ];
 
     return (
