@@ -232,6 +232,7 @@ ul {
     flex: 1;
     box-sizing: border-box;
     padding: 20px;
+    background-color: #FFBD59;
 }
 
 .headline-main {
@@ -247,9 +248,24 @@ ul {
     margin: 3.5%;
 }
 
+.gallery-item {
+    position: relative;
+}
+
+.image-container {
+    width: 100%;
+}
+
 .gallery-img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     display: block;
+}
+
+.image-text {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
