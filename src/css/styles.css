@@ -92,7 +92,7 @@ ul {
 
 .inner {
     white-space: nowrap;
-    transition: transform 0.3s;
+    transition: transform 0.7s ease;
 }
 
 

@@ -1,7 +1,7 @@
-import Antibiotic from '../img/Antibiotic.png';
-import Grain from '../img/Grain.png';
-import Steroids from '../img/Steroids.png';
-import Guarantee from '../img/Guarantee.png';
+import Antibiotic from '../img/Antibiotic.jpg';
+import Grain from '../img/Grain.jpg';
+import Steroids from '../img/Steroids.jpg';
+import Guarantee from '../img/Guarantee.jpg';
 
 
 
