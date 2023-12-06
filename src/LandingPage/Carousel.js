@@ -57,7 +57,7 @@ const Carousel = ({ children }) => {
             if (!paused) {
                 updateIndex(activeIndex + 1);
             }
-        }, 4500);
+        }, 3500);
 
 
         return () => {
