@@ -14,7 +14,7 @@ const InfoPortion = () => {
             <h2>
                 Interested? Click the button below to contact us to claim your beef today!
             </h2>
-            <button>
+            <button className="contact-btn">
                 Contact Us!
             </button>
         </div>

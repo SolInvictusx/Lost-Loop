@@ -241,6 +241,39 @@ ul {
     background-color: var(--mainGrey);
 }
 
+.contact-btn {
+    appearance: none;
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 8px 8px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.5) 0 0px 0 inset;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    box-sizing: border-box;
+    align-items: center;
+    line-height: 1;
+    z-index: 1;
+    cursor: pointer;
+    color: var(--mainGrey);
+    border: none;
+    border-radius: 15px;
+    min-height: 45px;
+    min-width: 120px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    ;
+    font-weight: 600;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.contact-btn:hover {
+    background-color: #f68f30;
+}
+
 .img-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
