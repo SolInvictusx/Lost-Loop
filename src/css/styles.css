@@ -231,7 +231,7 @@ ul {
 .column {
     flex: 1;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 40px;
     background-color: #FFBD59;
 }
 
@@ -239,6 +239,22 @@ ul {
     text-align: center;
     font-size: 72px;
     background-color: var(--mainGrey);
+}
+
+.portion {
+    margin-left: 5%;
+    font-size: 20px;
+    background-color: var(--mainGrey);
+    border-radius: 15px;
+    padding: 25px;
+    font-weight: 450;
+}
+
+.how-much {
+    height: 450px;
+    width: auto;
+    float: right;
+    margin-right: 105px;
 }
 
 .contact-btn {
