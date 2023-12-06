@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import './css/styles.css';
 import BeefPage from './OtherPages/BeefMain';
+import ContactPage from './OtherPages/ContactMain';
 import MerchandisePage from './OtherPages/MerchandiseMain';
 
 import {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "beef",
     element: <BeefPage />,
+  },
+  {
+    path: "contact",
+    element: <ContactPage />,
   },
   {
     path: "merchandise",

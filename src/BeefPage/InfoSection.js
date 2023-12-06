@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const InfoPortion = () => {
     return (
         <div>
@@ -15,7 +17,9 @@ const InfoPortion = () => {
                 Interested? Click the button below to contact us to claim your beef today!
             </h2>
             <button className="contact-btn">
-                Contact Us!
+                <Link to='/beef'>
+                    Contact Us!
+                </Link>
             </button>
         </div>
     );
