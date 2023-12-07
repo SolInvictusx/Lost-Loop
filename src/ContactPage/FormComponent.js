@@ -53,16 +53,16 @@ const Basic = () => (
                 <div className='form-container'>
                     <div className='form-box'>
                         <Form>
-                            <Field type="text" name="name" placeholder="Your Name" className='field-form'/>
+                            <Field type="text" name="name" placeholder="Your Name" className='field-form' />
                             <ErrorMessage name="name" component="div" />
 
-                            <Field type="email" name="email" placeholder="Email" className='field-form'/>
+                            <Field type="email" name="email" placeholder="Email" className='field-form' />
                             <ErrorMessage name="email" component="div" />
 
-                            <Field type="subject" name="subject" placeholder="Subject" className='field-form'/>
+                            <Field type="subject" name="subject" placeholder="Subject" className='field-form' />
                             <ErrorMessage name="subject" component="div" />
 
-                            <Field as="textarea" name="message" placeholder="Message" className='field-form'/>
+                            <Field as="textarea" name="message" placeholder="Message" className='field-form' />
                             <ErrorMessage name="message" component="div" />
 
                             <button type="submit" disabled={isSubmitting} className='form-btn'>
