@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Background from '../img/Background.jpeg'
 import Cattle from '../img/Cattle.jpeg'
 import Hillside from '../img/Hillside.jpg'
+import YoungCalves from '../img/YoungCalves.jpg';
 
 import '../css/styles.css'
 
@@ -33,6 +34,14 @@ export const ImgThree = () => {
     return (
         <div>
             <img src={Hillside} className='church' />
+        </div>
+    )
+}
+
+export const ImgFour = () => {
+    return (
+        <div>
+            <img src={YoungCalves} className='church' />
         </div>
     )
 }

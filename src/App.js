@@ -1,6 +1,6 @@
 import './App.css';
 import BusinessDetails, { GuaranteeImg } from './LandingPage/BeefDetails';
-import Carousel, { CarouselItem, ImgOne, ImgThree, ImgTwo } from './LandingPage/Carousel';
+import Carousel, { CarouselItem, ImgFour, ImgOne, ImgThree, ImgTwo } from './LandingPage/Carousel';
 import { NewDetail } from './LandingPage/Family';
 import BeefLink from './LandingPage/LinkDisplay';
 import NavBar from './LandingPage/Navigation';
@@ -19,6 +19,9 @@ const App = () => {
           </CarouselItem>
           <CarouselItem>
             <ImgThree />
+          </CarouselItem>
+          <CarouselItem>
+            <ImgFour />
           </CarouselItem>
         </Carousel>
         <BeefLink />
