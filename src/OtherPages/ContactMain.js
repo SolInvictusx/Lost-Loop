@@ -1,13 +1,13 @@
 import NavBar from "../LandingPage/Navigation";
-import ContactForm from "../ContactPage/FormComponent";
 import SayHello from "../ContactPage/ShoutOut";
+import Basic from "../ContactPage/FormComponent";
 
 const firstSign = () => {
     return (
         <div>
             <NavBar />
             <SayHello />
-            <ContactForm />
+            <Basic />
         </div>
     )
 }
