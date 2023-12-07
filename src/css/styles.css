@@ -38,6 +38,30 @@ ul {
 
 }
 
+@media (max-width: 940px) {
+    .nav {
+        padding: 0px 80px;
+    }
+}
+
+@media (max-width: 730px) {
+    .nav {
+        padding: 0px 40px;
+    }
+}
+
+@media (max-width: 580px) {
+    .nav {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 440px) {
+    .nav {
+        padding: 0px 10px;
+    }
+}
+
 .nav-list {
     display: flex;
     color: rgba(0, 0, 0, 0.75);
@@ -55,9 +79,24 @@ ul {
     text-decoration: none;
 }
 
-@media (max-width: 940px) {
-    .nav {
-        padding: 0px 80px;
+@media (max-width: 810px) {
+    .nav-link {
+        font-size: 14px;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 660px) {
+    .nav-link {
+        font-size: 12px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 440px) {
+    .nav-link {
+        font-size: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -86,6 +125,18 @@ ul {
     display: block;
     height: auto;
     width: 100px;
+}
+
+@media (max-width: 660px) {
+    .logo-img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 440px) {
+    .logo-img {
+        width: 60px;
+    }
 }
 
 /* End of Navbar */
@@ -359,6 +410,34 @@ ul {
 
 /* Beginning of Contact Page */
 
+.hear-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hear-heading {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hear-subheading {
+    color: #555;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.reminder-text {
+    color: #777;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
 /* Center the form on the screen */
 .form-container {
     display: flex;
@@ -421,7 +500,6 @@ Field {
 Field[name="message"] {
     resize: vertical;
     height: 100px;
-    /* Set an initial height, adjust as needed */
 }
 
 .field-form {

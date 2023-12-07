@@ -4,7 +4,6 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 
 const Basic = () => (
     <div>
-        <h1>Any place in your app!</h1>
         <Formik
             initialValues={{ email: '', password: '', name: '', message: '' }}
             validate={values => {
