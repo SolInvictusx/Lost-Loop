@@ -17,32 +17,32 @@ export const ImgOne = () => {
         <div>
             <img src={Cattle} className='church' />
         </div>
-    )
-}
+    );
+};
 
 export const ImgTwo = () => {
     return (
         <div>
             <img src={Background} className='church' />
         </div>
-    )
-}
+    );
+};
 
 export const ImgThree = () => {
     return (
         <div>
             <img src={Hillside} className='church' />
         </div>
-    )
-}
+    );
+};
 
 export const ImgFour = () => {
     return (
         <div>
             <img src={YoungCalves} className='church' />
         </div>
-    )
-}
+    );
+};
 
 const Carousel = ({ children }) => {
 
