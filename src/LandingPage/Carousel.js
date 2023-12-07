@@ -2,9 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Background from '../img/Background.jpeg'
 import Cattle from '../img/Cattle.jpeg'
 import Hillside from '../img/Hillside.jpg'
-import YoungCalves from '../img/YoungCalves.jpg';
-
-import '../css/styles.css'
+import YoungCalves from '../img/YoungCalves.jpg'
 
 export const CarouselItem = ({ children, width }) => {
     return (
