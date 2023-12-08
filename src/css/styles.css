@@ -416,6 +416,13 @@ ul {
     text-align: center;
 }
 
+.amount-head {
+    text-align: center;
+    font-size: 72px;
+    background-color: var(--mainGrey);
+    margin-top: 200px;
+}
+
 
 /* Beginning of Contact Page */
 
