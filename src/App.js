@@ -1,5 +1,5 @@
 import './App.css';
-import BusinessDetails, { GuaranteeImg } from './LandingPage/BeefDetails';
+import BusinessDetails from './LandingPage/BeefDetails';
 import Carousel, { CarouselItem, ImgFour, ImgOne, ImgThree, ImgTwo } from './LandingPage/Carousel';
 import { NewDetail } from './LandingPage/Family';
 import BeefLink from './LandingPage/LinkDisplay';

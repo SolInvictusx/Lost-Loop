@@ -4,11 +4,9 @@ const BeefLink = () => {
     return (
         <div className="display-container">
             <div>
-                <p>
-                    <h1 className="table-talk">
-                        From our farm to your table
-                    </h1>
-                </p>
+                <h1 className="table-talk">
+                    From our farm to your table
+                </h1>
             </div>
             <button className="link-btn">
                 <Link to='/beef'>
