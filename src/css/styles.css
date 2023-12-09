@@ -147,9 +147,21 @@ ul {
     overflow: hidden;
 }
 
+.carousel::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(circle, rgba(17, 12, 17, 0) 30%, rgba(17, 12, 17, 1) 96%);
+}
+
 .inner {
     white-space: nowrap;
-    transition: transform 1s ease;
+    transition: all 1s ease-out;
 }
 
 
@@ -161,16 +173,6 @@ ul {
     background-color: transparent;
     color: #fff;
     vertical-align: bottom;
-}
-
-.indicators {
-    display: flex;
-    justify-content: center;
-}
-
-.indicators>button.active {
-    background-color: var(--primaryColor);
-    color: #fff;
 }
 
 .church {
@@ -307,7 +309,7 @@ ul {
     object-fit: cover;
     width: 100%;
     height: 800px;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 /* Beginning of BeefMain page */

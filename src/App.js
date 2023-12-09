@@ -2,6 +2,7 @@ import './App.css';
 import BusinessDetails from './LandingPage/BeefDetails';
 import Carousel, { CarouselItem, ImgFour, ImgOne, ImgThree, ImgTwo } from './LandingPage/Carousel';
 import { NewDetail } from './LandingPage/Family';
+import Accordion from './LandingPage/FrequentlyAsked';
 import BeefLink from './LandingPage/LinkDisplay';
 import NavBar from './LandingPage/Navigation';
 
@@ -28,6 +29,7 @@ const App = () => {
       </div>
       <BusinessDetails />
       <NewDetail />
+      <Accordion />
     </>
   );
 };
