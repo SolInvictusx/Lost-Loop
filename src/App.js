@@ -1,4 +1,5 @@
 import './App.css';
+import AboutUs from './LandingPage/About';
 import BusinessDetails from './LandingPage/BeefDetails';
 import Carousel, { CarouselItem, ImgFour, ImgOne, ImgThree, ImgTwo } from './LandingPage/Carousel';
 import { NewDetail } from './LandingPage/Family';
@@ -32,6 +33,7 @@ const App = () => {
       <BusinessDetails />
       <NewDetail />
       <Accordion />
+      <AboutUs />
       <FooterSection />
     </>
   );

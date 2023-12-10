@@ -424,6 +424,30 @@ ul {
 
 /* End of Footer Section */
 
+/* Beginning of About Section */
+
+.about-container {
+    background-color: var(--mainBlack);
+    padding: 40px;
+    text-align: center;
+}
+
+.about-container h1 {
+    color: var(--primaryColor);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-container h2 {
+    color: var(--mainGrey);
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+
+/* End of About Section */
+
 /* Beginning of BeefMain page */
 
 .column-container {
