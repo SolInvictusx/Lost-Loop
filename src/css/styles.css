@@ -389,6 +389,7 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 30px;
+    font-size: 18px;
 }
 
 .col-sm {
@@ -484,6 +485,10 @@ ul {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #ac5d13;
 }
 
 .how-much {
@@ -598,4 +603,11 @@ form button {
 
 form button:hover {
     background-color: #ac5d13;
+}
+
+/* Beginning of Merchandise Page */
+
+.info-container {
+    margin: 150px;
+    text-align: center;
 }

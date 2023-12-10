@@ -35,6 +35,7 @@ const FooterSection = () => {
                     </button>
                 )}
                 <div className="footer-column">
+                    <div><Link to="/">Home</Link></div>
                     <div><Link to="/beef">Beef</Link></div>
                     <div><Link to="/contact">Contact</Link></div>
                     <div><Link to="/merchandise">Merchandise</Link></div>
