@@ -5,6 +5,7 @@ import App from './App';
 import './css/styles.css';
 import BeefPage from './OtherPages/BeefMain';
 import ContactPage from './OtherPages/ContactMain';
+import MerchandisePage from './OtherPages/MerchandiseMain';
 
 import {
   createBrowserRouter,
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
   {
     path: "contact",
     element: <ContactPage />,
+  },
+
+  {
+    path: "merchandise",
+    element: <MerchandisePage />,
   },
 ]);
 

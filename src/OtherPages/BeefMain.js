@@ -4,6 +4,7 @@ import InfoPortion from "../BeefPage/InfoSection";
 import BeefArray from "../BeefPage/CutsArray";
 import Headliner from "../BeefPage/Headline";
 import SectionBeef from "../BeefPage/Section";
+import FooterSection from "../LandingPage/Footer";
 
 
 const BeefPage = () => {
@@ -21,6 +22,7 @@ const BeefPage = () => {
             <Headliner />
             <BeefArray />
             <SectionBeef />
+            <FooterSection />
         </div>
     );
 };

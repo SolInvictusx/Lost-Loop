@@ -1,6 +1,7 @@
 import NavBar from "../LandingPage/Navigation";
 import SayHello from "../ContactPage/ShoutOut";
 import FormComponent from "../ContactPage/FormComponent";
+import FooterSection from "../LandingPage/Footer";
 
 const firstSign = () => {
     return (
@@ -8,6 +9,7 @@ const firstSign = () => {
             <NavBar />
             <SayHello />
             <FormComponent />
+            <FooterSection />
         </div>
     )
 }
