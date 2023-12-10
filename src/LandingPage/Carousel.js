@@ -15,7 +15,7 @@ export const CarouselItem = ({ children, width }) => {
 export const ImgOne = () => {
     return (
         <div>
-            <img src={Cattle} className='church' />
+            <img src={Cattle} className='church' alt='Cattle' />
         </div>
     );
 };
@@ -23,7 +23,7 @@ export const ImgOne = () => {
 export const ImgTwo = () => {
     return (
         <div>
-            <img src={Background} className='church' />
+            <img src={Background} className='church' alt='Farmland' />
         </div>
     );
 };
@@ -31,7 +31,7 @@ export const ImgTwo = () => {
 export const ImgThree = () => {
     return (
         <div>
-            <img src={Hillside} className='church' />
+            <img src={Hillside} className='church' alt='Hillside' />
         </div>
     );
 };
@@ -39,7 +39,7 @@ export const ImgThree = () => {
 export const ImgFour = () => {
     return (
         <div>
-            <img src={YoungCalves} className='church' />
+            <img src={YoungCalves} className='church' alt='YoungCalves' />
         </div>
     );
 };

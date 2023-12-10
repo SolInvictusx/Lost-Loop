@@ -7,6 +7,7 @@ import Accordion from './LandingPage/FrequentlyAsked';
 import BeefLink from './LandingPage/LinkDisplay';
 import NavBar from './LandingPage/Navigation';
 
+
 const App = () => {
   return (
     <>

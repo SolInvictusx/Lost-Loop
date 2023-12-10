@@ -5,16 +5,18 @@ const FooterSection = () => {
         <div className="footer-container">
             <div className="footer-head">
                 <h1>
-                    Links & About Us
+                    Links
                 </h1>
-                <div className="col">
-                    <Link to="/beef">Beef</Link>
-                </div>
-                <div className="col">
-                    <Link to="/contact">Contact</Link>
-                </div>
-                <div className="col">
-                    <Link to="/merchandise">Merchandise</Link>
+                <div className="footer-column">
+                    <div>
+                        <Link to="/beef">Beef</Link>
+                    </div>
+                    <div>
+                        <Link to="/contact">Contact</Link>
+                    </div>
+                    <div>
+                        <Link to="/merchandise">Merchandise</Link>
+                    </div>
                 </div>
                 <hr />
                 <p className="col-sm">
