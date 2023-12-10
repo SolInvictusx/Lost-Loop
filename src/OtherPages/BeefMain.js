@@ -5,6 +5,7 @@ import BeefArray from "../BeefPage/CutsArray";
 import Headliner from "../BeefPage/Headline";
 import SectionBeef from "../BeefPage/Section";
 import FooterSection from "../LandingPage/Footer";
+import Amount from "../BeefPage/AmountArray";
 
 
 const BeefPage = () => {
@@ -22,6 +23,7 @@ const BeefPage = () => {
             <Headliner />
             <BeefArray />
             <SectionBeef />
+            <Amount />
             <FooterSection />
         </div>
     );

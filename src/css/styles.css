@@ -562,6 +562,17 @@ ul {
     margin-top: 200px;
 }
 
+.amount-container {
+    margin-bottom: 150px;
+}
+
+.amount-img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+}
+
 
 /* Beginning of Contact Page */
 
