@@ -38,25 +38,14 @@
     margin: 0;
 }
 
-.accordion-faq-heading .verticle {
-    font-size: 24px;
-    color: #fff;
-    transform: rotate(0deg);
-    transition: transform 0.3s ease-in-out;
-}
-
-.accordion-faq-heading.active .verticle {
-    transform: rotate(45deg);
-}
-
 .accordion-faq p {
-    margin: 0;
-    padding: 15px;
-    background-color: #ecf0f1;
+    padding: 25px;
+    background-color: #e7e7e7;
     border-radius: 0 0 8px 8px;
     display: none;
     color: #333;
     line-height: 1.4;
+    font-size: 18px;
 }
 
 .accordion-faq p.active {
