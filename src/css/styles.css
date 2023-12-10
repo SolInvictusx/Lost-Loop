@@ -456,7 +456,7 @@ form {
     margin: 40px auto;
     max-width: 600px;
     max-height: 700px;
-    padding: 20px 40px;
+    padding: 25px 40px;
 }
 
 form input,
@@ -464,11 +464,13 @@ textarea {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 10px auto;
+    margin: 15px auto;
     padding: 8px;
     background-color: #f1f1f1;
     border: 1px solid #ddd;
     font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
 }
 
 form span {
@@ -481,4 +483,5 @@ form button {
     align-items: center;
     border: none;
     background-color: #e0883a;
+    cursor: pointer;
 }
