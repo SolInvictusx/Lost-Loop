@@ -7,9 +7,19 @@ const FooterSection = () => {
                 <h1>
                     Links & About Us
                 </h1>
-                <Link to="/beef">Beef</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/merchandise">Merchandise</Link>
+                <div className="col">
+                    <Link to="/beef">Beef</Link>
+                </div>
+                <div className="col">
+                    <Link to="/contact">Contact</Link>
+                </div>
+                <div className="col">
+                    <Link to="/merchandise">Merchandise</Link>
+                </div>
+                <hr />
+                <p className="col-sm">
+                    &copy;{new Date().getFullYear()} Lost Loop Farms | All Rights Reserved
+                </p>
             </div>
         </div>
     );
