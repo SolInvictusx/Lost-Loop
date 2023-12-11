@@ -176,6 +176,7 @@ ul {
     width: 100%;
     height: 770px;
     opacity: 0.95;
+    vertical-align: bottom;
 }
 
 .carousel-container {
@@ -242,7 +243,7 @@ ul {
 @media (max-width: 700px) {
     .link-btn {
         padding: 13px;
-        font-size: 10px;
+        font-size: 12px;
         margin: 40px;
     }
 }
@@ -250,7 +251,7 @@ ul {
 @media (max-width: 600px) {
     .link-btn {
         padding: 12px;
-        font-size: 9px;
+        font-size: 12px;
         margin: 30px;
     }
 }
@@ -258,14 +259,14 @@ ul {
 @media (max-width: 540px) {
     .link-btn {
         padding: 11px;
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 
 @media (max-width: 460px) {
     .link-btn {
-        padding: 10px;
-        font-size: 7px;
+        padding: 14px;
+        font-size: 16px;
     }
 }
 
@@ -314,6 +315,7 @@ ul {
 @media (max-width: 700px) {
     .table-talk {
         font-size: 32px;
+        letter-spacing: 0.5rem;
     }
 }
 
@@ -325,7 +327,7 @@ ul {
 
 @media (max-width: 540px) {
     .table-talk {
-        font-size: 18px;
+        font-size: 25px;
     }
 }
 
