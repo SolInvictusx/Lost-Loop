@@ -160,25 +160,21 @@ ul {
 }
 
 .inner {
-    white-space: nowrap;
+    display: flex;
     transition: all 1s ease-out;
 }
 
 
 .carousel-item {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 770px;
-    background-color: transparent;
-    color: #fff;
-    vertical-align: bottom;
+    flex: 1;
+    min-width: 100%;
+    box-sizing: border-box;
 }
 
 .church {
     object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 770px;
     opacity: 0.95;
 }
 
@@ -210,7 +206,7 @@ ul {
     text-decoration: none;
     border: none;
     border-radius: 15px;
-    padding: 30px;
+    padding: 25px;
     min-height: 25px;
     min-width: 120px;
     font-size: 16px;
@@ -239,6 +235,7 @@ ul {
     .link-btn {
         padding: 14px;
         font-size: 11px;
+        margin: 50px;
     }
 }
 
@@ -246,6 +243,7 @@ ul {
     .link-btn {
         padding: 13px;
         font-size: 10px;
+        margin: 40px;
     }
 }
 
@@ -253,6 +251,7 @@ ul {
     .link-btn {
         padding: 12px;
         font-size: 9px;
+        margin: 30px;
     }
 }
 
@@ -353,6 +352,12 @@ ul {
     margin: 0px 50px;
 }
 
+@media (max-width: 700px) {
+    .business {
+        height: 175px;
+    }
+}
+
 .family-img {
     vertical-align: bottom;
 }
@@ -420,6 +425,19 @@ ul {
     right: 40px;
     top: 50%;
     transform: translateY(-220%);
+}
+
+@media (max-width: 460px) {
+    .back-btn {
+        font-size: 12px;
+        padding: 10px;
+        min-width: 65px;
+        right: 20px;
+    }
+}
+
+.back-btn:hover {
+    background-image: radial-gradient(100% 100% at 100% 0, #f68f30 0, #c05d00 100%);
 }
 
 /* End of Footer Section */

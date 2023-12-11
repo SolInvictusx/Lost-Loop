@@ -2,7 +2,7 @@ const ProductsHeadline = () => {
     return (
         <div>
             <h1 className="headline-main">
-                Lost Loop Clothing
+                Lost Loop Merch
             </h1>
         </div>
     );
