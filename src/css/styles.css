@@ -273,7 +273,7 @@ ul {
 
 
 .link-btn:hover {
-    background-image: radial-gradient(100% 100% at 100% 0, #ac5d13 0, rgb(0, 0, 0) 95%);
+    background-image: radial-gradient(100% 100% at 100% 0, #f68f30 0, #c05d00 100%);
 }
 
 .table-talk {
@@ -343,8 +343,12 @@ ul {
 
 .business-container {
     text-align: center;
-    border-top: 25px solid black;
-    border-bottom: 25px solid black;
+    border-top: 25px solid;
+    border-bottom: 25px solid;
+    border-image: linear-gradient(to right, #000, #555, #000);
+    border-image-slice: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow effect */
 }
 
 .business {
@@ -596,12 +600,37 @@ ul {
     margin-bottom: 20px;
 }
 
+@media (max-width: 600px) {
+    .about-container h1 {
+        font-size: 1.4em;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .about-container h1 {
+        font-size: 1.2em;
+        margin-bottom: 13px;
+    }
+}
+
 .about-container h2 {
     color: var(--mainGrey);
     font-size: 1.2em;
     line-height: 1.6;
 }
 
+@media (max-width: 600px) {
+    .about-container h2 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 450px) {
+    .about-container h2 {
+        font-size: .8em;
+    }
+}
 
 
 /* End of About Section */
@@ -907,10 +936,22 @@ form button {
     cursor: pointer;
     color: #fff;
     font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    ;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 form button:hover {
     background-color: #ac5d13;
+}
+
+.form-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
 }
 
 /* Beginning of Merchandise Page */
