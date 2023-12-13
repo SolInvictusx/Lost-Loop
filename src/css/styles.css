@@ -227,30 +227,26 @@ ul {
 
 @media (max-width: 1010px) {
     .link-btn {
-        padding: 15px;
-        font-size: 12px;
+        margin: 50px;
     }
 }
 
 @media (max-width: 840px) {
     .link-btn {
-        padding: 14px;
-        font-size: 11px;
-        margin: 50px;
+        padding: 18px;
     }
 }
 
 @media (max-width: 700px) {
     .link-btn {
-        padding: 13px;
         font-size: 12px;
-        margin: 40px;
+        margin: 30px;
     }
 }
 
 @media (max-width: 600px) {
     .link-btn {
-        padding: 12px;
+        padding: 16px;
         font-size: 12px;
         margin: 30px;
     }
@@ -258,15 +254,17 @@ ul {
 
 @media (max-width: 540px) {
     .link-btn {
-        padding: 11px;
+        padding: 18px;
         font-size: 12px;
+        margin: 30px;
     }
 }
 
 @media (max-width: 460px) {
     .link-btn {
-        padding: 14px;
-        font-size: 16px;
+        padding: 18px;
+        font-size: 12px;
+        margin: 30px;
     }
 }
 
@@ -309,31 +307,51 @@ ul {
 @media (max-width: 840px) {
     .table-talk {
         font-size: 40px;
+        text-shadow:
+            -1px -1px 0 #341d06,
+            1px -1px 0 #341d06,
+            -1px 1px 0 #341d06,
+            4px 1px 0 #341d06;
     }
 }
 
 @media (max-width: 700px) {
     .table-talk {
-        font-size: 32px;
+        font-size: 45px;
         letter-spacing: 0.5rem;
+        text-shadow:
+            -1px -1px 0 #341d06,
+            1px -1px 0 #341d06,
+            -1px 1px 0 #341d06,
+            4px 1px 0 #341d06;
     }
 }
 
 @media (max-width: 600px) {
     .table-talk {
-        font-size: 25px;
+        font-size: 40px;
+        text-shadow:
+            -1px -1px 0 #341d06,
+            1px -1px 0 #341d06,
+            -1px 1px 0 #341d06,
+            4px 1px 0 #341d06;
     }
 }
 
 @media (max-width: 540px) {
     .table-talk {
-        font-size: 25px;
+        font-size: 30px;
+        text-shadow:
+            -1px -1px 0 #341d06,
+            1px -1px 0 #341d06,
+            -1px 1px 0 #341d06,
+            4px 1px 0 #341d06;
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
     .table-talk {
-        font-size: 0px;
+        display: none;
     }
 }
 
