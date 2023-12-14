@@ -7,6 +7,7 @@ import FooterSection from './LandingPage/Footer';
 import Accordion from './LandingPage/FrequentlyAsked';
 import BeefLink from './LandingPage/LinkDisplay';
 import NavBar from './LandingPage/Navigation';
+import Preview from './LandingPage/YoutubePreview';
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
       <BusinessDetails />
       <NewDetail />
       <Accordion />
+      <Preview />
       <AboutUs />
       <FooterSection />
     </>
