@@ -12,6 +12,7 @@ const Preview = () => {
                         <iframe
                             src="https://www.youtube.com/embed/sbD2sm3aIiU"
                             title="International 966 “Mean Streak” - MMTTPA 9500 lb. Pro Field California, MO"
+                            frameBorder={0}
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen=""
                             className="video-preview"
