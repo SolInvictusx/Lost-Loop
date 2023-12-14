@@ -530,19 +530,36 @@ ul {
 }
 
 .mean-streak-column {
-    font-size: 30px;
+    font-size: 55px;
     color: #222;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     text-align: center;
     margin-top: 0px;
     padding-top: 40px;
 }
 
+.tractor-section {
+    margin-left: 50px;
+}
+
 .video-container {
     display: flex;
-    justify-content: flex-end;
     margin-right: 50px;
     margin-bottom: 70px;
+}
+
+.youtube-list {
+    width: 600px;
+    height: 125px;
+    margin-left: 150px;
+    color: var(--mainBlack);
+    margin-top: 100px;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    font-weight: 650;
+    line-height: 55px;
 }
 
 .video-preview {
@@ -551,6 +568,7 @@ ul {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     width: 1024px;
     height: 580px;
+    margin-left: auto;
 }
 
 

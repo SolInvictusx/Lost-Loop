@@ -9,7 +9,7 @@ export const NewDetail = () => {
             <ul className='who-we-are'>
                 <li>Locally raised in Linn, MO</li>
                 <li>Premium Black Angus</li>
-                <li>All at an affordable price</li>
+                <li>Affordable Pricing</li>
             </ul>
         </div>
     );
