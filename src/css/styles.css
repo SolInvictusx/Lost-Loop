@@ -525,8 +525,11 @@ ul {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.164);
 }
 
+/* Beginning of Youtube Section */
+
 .video-section {
     max-width: 100%;
+    border: 0px;
 }
 
 .mean-streak-column {
@@ -538,6 +541,12 @@ ul {
     padding-top: 40px;
 }
 
+@media (max-width: 1500px) {
+    .mean-streak-column {
+        margin-bottom: 20px;
+    }
+}
+
 .tractor-section {
     margin-left: 50px;
 }
@@ -546,6 +555,15 @@ ul {
     display: flex;
     margin-right: 50px;
     margin-bottom: 70px;
+}
+
+@media (max-width: 1700px) {
+    .video-container {
+        margin-right: 0px;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 .youtube-list {
@@ -562,6 +580,62 @@ ul {
     line-height: 55px;
 }
 
+@media (max-width: 1700px) {
+    .youtube-list {
+        width: 700px;
+        margin-top: 80px;
+        line-height: 45px;
+        margin-bottom: 150px;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .youtube-list {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .youtube-list {
+        width: 600px;
+        font-size: 18px;
+        margin-left: 75px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    .youtube-list {
+        width: 500px;
+        font-size: 14px;
+        margin-left: 0px;
+        line-height: 35px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+    .youtube-list {
+        width: 400px;
+        font-size: 11px;
+        line-height: 35px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 475px) {
+    .youtube-list {
+        width: 300px;
+        font-size: 11px;
+        line-height: 28px;
+        height: 30px;
+    }
+}
+
+
 .video-preview {
     border: 5px solid transparent;
     border-radius: 15px;
@@ -571,6 +645,36 @@ ul {
     margin-left: auto;
 }
 
+@media (max-width: 1200px) {
+    .video-preview {
+        width: 768px;
+        height: 435px;
+    }
+}
+
+@media (max-width: 900px) {
+    .video-preview {
+        width: 512px;
+        height: 290px;
+    }
+}
+
+@media (max-width: 600px) {
+    .video-preview {
+        width: 384px;
+        height: 217.5px;
+    }
+}
+
+@media (max-width: 475px) {
+    .video-preview {
+        width: 288px;
+        height: 163.125px;
+    }
+}
+
+
+/* End of Youtube Section */
 
 /* Beginning of Footer Section */
 
