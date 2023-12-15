@@ -14,7 +14,7 @@ const FormComponent = () => {
     }
 
     return (
-        <form method="post" onSubmit={handleSubmit}>
+        <form method="post" onSubmit={handleSubmit} id="contact-form">
             <h1>Contact <span>Here</span></h1>
             <input type="text" name="firstname" id="" onChange={handleChange} value={data.firstname} placeholder="First Name" className="form-text" />
             <input type="text" name="lastname" id="" onChange={handleChange} value={data.lastname} placeholder="Last Name" className="form-text" />
