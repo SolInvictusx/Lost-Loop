@@ -35,12 +35,12 @@ const FooterSection = () => {
                     </button>
                 )}
                 <div className="footer-column">
-                    <div><Link to="/">Home</Link></div>
-                    <div><Link to="/beef">Beef</Link></div>
-                    <div><Link to="/contact">Contact</Link></div>
-                    <div><Link to="/merchandise">Merchandise</Link></div>
+                    <div onClick={scrollToTop}><Link to="/">Home</Link></div>
+                    <div onClick={scrollToTop}><Link to="/beef">Beef</Link></div>
+                    <div onClick={scrollToTop}><Link to="/contact">Contact</Link></div>
+                    <div onClick={scrollToTop}><Link to="/merchandise">Merchandise</Link></div>
                 </div>
-                <hr />
+                <hr />s
                 <p className="col-sm">&copy;{new Date().getFullYear()} Lost Loop Farms | All Rights Reserved</p>
 
             </div>

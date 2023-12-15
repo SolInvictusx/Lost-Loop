@@ -382,9 +382,22 @@ ul {
     }
 }
 
+@media (max-width: 570px) {
+    .business {
+        height: 105px;
+    }
+}
+
 .family-img {
     vertical-align: bottom;
 }
+
+@media (max-width: 700px) {
+    .family-img {
+        height: 400px;
+    }
+}
+
 
 /* Beginning of Extended Info */
 
@@ -434,13 +447,18 @@ ul {
     }
 }
 
+@media (max-width: 700px) {
+    .family-img {
+        height: 500px;
+    }
+}
+
 
 .who-we-are {
     flex: 1;
     padding: 20px;
     list-style-type: none;
 }
-
 
 .who-we-are li {
     width: 400px;
@@ -547,6 +565,13 @@ ul {
     }
 }
 
+@media (max-width: 600px) {
+    .mean-streak-column {
+        font-size: 35px;
+    }
+}
+
+
 .tractor-section {
     margin-left: 50px;
 }
@@ -620,8 +645,8 @@ ul {
 @media (max-width: 600px) {
     .youtube-list {
         width: 400px;
-        font-size: 11px;
-        line-height: 35px;
+        font-size: 12px;
+        line-height: 30px;
         height: 30px;
     }
 }
@@ -630,7 +655,7 @@ ul {
     .youtube-list {
         width: 300px;
         font-size: 11px;
-        line-height: 28px;
+        line-height: 25px;
         height: 30px;
     }
 }
