@@ -24,7 +24,7 @@ const FormComponent = () => {
         //     <button type="submit">Submit</button>
         // </form>
 
-        <form name="contact" netlify>
+        <form method="POST" name="contact" netlify>
             <p>
                 <label>Name <input type="text" name="name" /></label>
             </p>
