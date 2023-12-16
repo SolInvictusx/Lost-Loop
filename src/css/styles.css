@@ -197,6 +197,12 @@ ul {
     text-align: center;
 }
 
+@media (max-width: 840px) {
+    .display-container {
+        display: grid;
+    }
+}
+
 .link-btn {
     appearance: none;
     background-image: radial-gradient(100% 100% at 100% 0, #f68f30 0, #f09d51 100%);
@@ -234,13 +240,14 @@ ul {
 @media (max-width: 840px) {
     .link-btn {
         padding: 18px;
+        margin: 0 auto;
+        margin-bottom: 50px;
     }
 }
 
 @media (max-width: 700px) {
     .link-btn {
         font-size: 12px;
-        margin: 30px;
     }
 }
 
@@ -248,7 +255,6 @@ ul {
     .link-btn {
         padding: 16px;
         font-size: 12px;
-        margin: 30px;
     }
 }
 
@@ -256,7 +262,6 @@ ul {
     .link-btn {
         padding: 18px;
         font-size: 12px;
-        margin: 30px;
     }
 }
 
@@ -264,7 +269,6 @@ ul {
     .link-btn {
         padding: 18px;
         font-size: 12px;
-        margin: 30px;
     }
 }
 
@@ -306,30 +310,34 @@ ul {
 /* Breakpoint at 840px */
 @media (max-width: 840px) {
     .table-talk {
-        font-size: 40px;
+        font-size: 60px;
         text-shadow:
             -1px -1px 0 #341d06,
             1px -1px 0 #341d06,
             -1px 1px 0 #341d06,
             4px 1px 0 #341d06;
+        margin-bottom: 80px;
+        white-space: normal;
+        line-height: 5rem;
     }
 }
 
 @media (max-width: 700px) {
     .table-talk {
-        font-size: 45px;
+        font-size: 50px;
         letter-spacing: 0.5rem;
         text-shadow:
             -1px -1px 0 #341d06,
             1px -1px 0 #341d06,
             -1px 1px 0 #341d06,
             4px 1px 0 #341d06;
+        line-height: 4.5rem;
     }
 }
 
 @media (max-width: 600px) {
     .table-talk {
-        font-size: 40px;
+        font-size: 50px;
         text-shadow:
             -1px -1px 0 #341d06,
             1px -1px 0 #341d06,
@@ -340,18 +348,13 @@ ul {
 
 @media (max-width: 540px) {
     .table-talk {
-        font-size: 30px;
+        font-size: 40px;
         text-shadow:
             -1px -1px 0 #341d06,
             1px -1px 0 #341d06,
             -1px 1px 0 #341d06,
             4px 1px 0 #341d06;
-    }
-}
-
-@media (max-width: 480px) {
-    .table-talk {
-        display: none;
+        line-height: 3.7rem;
     }
 }
 
