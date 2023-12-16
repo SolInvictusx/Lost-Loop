@@ -1219,7 +1219,7 @@ form button:hover {
     text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .info-container {
         margin: 75px;
     }
