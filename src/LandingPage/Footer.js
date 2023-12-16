@@ -40,7 +40,7 @@ const FooterSection = () => {
                     <div onClick={scrollToTop}><Link to="/contact">Contact</Link></div>
                     <div onClick={scrollToTop}><Link to="/merchandise">Merchandise</Link></div>
                 </div>
-                <hr />s
+                <hr />
                 <p className="col-sm">&copy;{new Date().getFullYear()} Lost Loop Farms | All Rights Reserved</p>
 
             </div>
