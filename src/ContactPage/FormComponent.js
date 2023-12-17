@@ -49,7 +49,7 @@ const FormComponent = () => {
             </form>
 
             {submissionResult === 'success' && (
-                <p className='form-result-success'>Success! We'll get back to you soon.</p>
+                <p className='form-result-success'>Success! We will get back to you soon.</p>
             )}
 
             {submissionResult === 'error' && (
