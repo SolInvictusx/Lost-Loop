@@ -20,15 +20,12 @@ const FormComponent = () => {
 
             if (response.ok) {
                 // Handle success
-                console.log('Form submitted successfully');
                 setSubmissionResult('success');
             } else {
                 // Handle error
-                console.error('Form submission failed');
                 setSubmissionResult('error');
             }
         } catch (error) {
-            console.error('An error occurred during form submission', error);
             setSubmissionResult('error');
         }
     };
@@ -52,11 +49,11 @@ const FormComponent = () => {
             </form>
 
             {submissionResult === 'success' && (
-                <p style={{ color: 'green' }}>Form submitted successfully!</p>
+                <p className='form-result-success'>Success! We'll get back to you soon.</p>
             )}
 
             {submissionResult === 'error' && (
-                <p style={{ color: 'red' }}>Form submission failed. Please try again.</p>
+                <p className='form-result-fail'>Oh no! The submission failed. Please try again.</p>
             )}
         </div>
     );

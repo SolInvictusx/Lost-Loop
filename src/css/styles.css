@@ -1212,6 +1212,56 @@ form button:hover {
         sans-serif;
 }
 
+.form-result-success {
+    background-color: rgb(27, 177, 27);
+    color: var(--mainGrey);
+    appearance: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 8px 8px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.5) 0 0px 0 inset;
+    color: var(--mainGrey);
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    font-weight: 600;
+    right: 40px;
+    top: 40%;
+    white-space: normal;
+    line-height: 1.5rem;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.form-result-fail {
+    background-color: rgb(230, 0, 0);
+    color: var(--mainWhite);
+    appearance: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 8px 8px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.5) 0 0px 0 inset;
+    color: var(--mainGrey);
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    font-weight: 600;
+    right: 40px;
+    top: 40%;
+    white-space: normal;
+    line-height: 1.5rem;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
 /* Beginning of Merchandise Page */
 
 .info-container {
