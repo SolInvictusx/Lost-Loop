@@ -6,13 +6,11 @@ const InfoPortion = () => {
             <div>
                 <h1 className="info-heading">Portion Sizing!</h1>
                 <h2 className="info-portion-text">
-                    We offer portion sizes ranging from 1/16 beef up to the entire beef. When portioned out in percentages, independent of what portion size our customers select, we provide
-                    50% in hamburger, 25% in roast, and the remaining 25% in steaks. We accommodate special requests and customization of these percentages as well as the cuts of steak! Listed below
-                    are the cuts of beef that we offer!
+                    We offer individual beef packages ranging from 1/16 all the way up to a whole beef. When broken down to percentages, each package will provide approximately 45% of the allotted weight in hamburger, 30% in roasts, and the remaining 25% in steaks. These percentages may vary slightly as each animal is subtly different. Our 1/16, 1/8, and 1/4 beef packages are cut to our standard specifications by our processer. 1/2 and whole beef are fully customizable and can be cut and packaged to your exact specifications by the processor.
                 </h2>
             </div>
             <h2 className="info-contact-text">
-                Interested? Click the button below to contact us and claim your beef today!
+                Interested? Click the button below to contact us and get on our list today!
             </h2>
             <Link to="/contact" className="contact-link">
                 Contact Us!
