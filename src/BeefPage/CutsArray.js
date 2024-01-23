@@ -1,22 +1,22 @@
-import image1 from '../img/GroundBeef.jpg';
-import image2 from '../img/Sirloin.jpg';
+import image1 from '../img/Hamburger.jpg';
+import image2 from '../img/T-bone.jpg';
 import image3 from '../img/KCStrip.jpeg';
 import image4 from '../img/ChuckRoast.jpg';
 import image5 from '../img/RumpRoast.jpg';
-import image6 from '../img/FiletMignon.jpg';
 import image7 from '../img/CubeSteak.jpg';
-import image8 from '../img/SirloinTipRoast.jpg';
+import image8 from '../img/Ribeye.jpg';
+import image9 from '../img/Sirloin.jpg';
 
 const BeefArray = () => {
     const imgArray = [
-        { src: image1, text: 'Ground Beef' },
-        { src: image2, text: 'Sirloin Steak' },
+        { src: image1, text: 'Hamburger' },
+        { src: image2, text: 'T-bone' },
         { src: image3, text: 'KC Strip' },
         { src: image4, text: 'Chuck Roast' },
         { src: image5, text: 'Rump Roast' },
-        { src: image6, text: 'Filet Mignon' },
         { src: image7, text: 'Cube Steak' },
-        { src: image8, text: 'Sirloin Tip Roast' },
+        { src: image8, text: 'Ribeye' },
+        { src: image9, text: 'Sirloin Steak' },
     ];
 
     return (
